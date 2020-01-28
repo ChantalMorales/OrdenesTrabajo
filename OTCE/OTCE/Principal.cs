@@ -26,12 +26,26 @@ namespace OTCE
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormPrueba frm = new FormPrueba();
+            frm.ShowDialog();
+            Refresh();
         }
 
         private void Principal_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormClientes frm = new FormClientes();
+            frm.ShowDialog();
+            
         }
     }
 }

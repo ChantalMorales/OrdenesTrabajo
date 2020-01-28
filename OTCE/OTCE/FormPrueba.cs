@@ -32,5 +32,52 @@ namespace OTCE
         {
             Refresh();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormAgregarUsuario frm = new FormAgregarUsuario();
+            frm.ShowDialog();
+            Refresh();
+        }
+
+        private int? GetId()
+        {
+            try
+            {
+                return int.Parse(
+                    dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value.ToString()
+                    );
+            } catch
+            {
+                return null;
+            }
+        }
+
+        private void Editar_Click(object sender, EventArgs e)
+        {
+            int? Id = GetId();
+            if(Id!=null)
+            {
+                FormAgregarUsuario frm = new FormAgregarUsuario(Id);
+                frm.ShowDialog();
+                Refresh();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int? Id = GetId();
+            if (Id != null)
+            {
+                dsOTCETableAdapters.UsuarioTableAdapter ta = new dsOTCETableAdapters.UsuarioTableAdapter();
+                ta.Remove((int)Id);
+                Refresh();
+            }
+        }
     }
 }

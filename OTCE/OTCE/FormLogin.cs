@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace OTCE
 {
     public partial class FormLogin : Form
     {
+        Principal vistas;
         public FormLogin()
         {
             InitializeComponent();
@@ -21,32 +23,32 @@ namespace OTCE
 
         private void btiniciarsesion_Click(object sender, EventArgs e)
         {
-            if(!String.IsNullOrEmpty(tbnombre.Text)&& !String.IsNullOrEmpty(tbcontrasena.Text))
+            SqlConnection sqlcon = new SqlConnection(@"Data Source=localhost;Initial Catalog=OrdenesTrabajo;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("select nombre_usuario, contrasena from usuario where nombre_usuario=@UserName and contrasena=@Password", sqlcon);
+            cmd.Parameters.AddWithValue("@UserName", txtName.Text);
+            cmd.Parameters.AddWithValue("@Password", txtpasswd.Text);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dtbl = new DataTable();
+            sda.Fill(dtbl);
+            sqlcon.Open();
+            int i = cmd.ExecuteNonQuery();
+            sqlcon.Close();
+            if (dtbl.Rows.Count == 1)
             {
-                try 
-                {
-                    BaseDatos bd =new  BaseDatos();
-                    Boolean res = bd.iniciarSesion(tbnombre.Text, tbcontrasena.Text);
-                    if (res)
-                    {
-                        Principal p = new Principal();
-                        p.Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Datos Incorrectos");
-                    }
-                }
-                catch
-                {
-                    MessageBox.Show("Error");
-                }
+                vistas = new Principal();
+                vistas.Show();
+                
+
             }
             else
             {
-                MessageBox.Show("Complete los Datos");
+                MessageBox.Show("verifica tu usuario o contraseña");
             }
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
