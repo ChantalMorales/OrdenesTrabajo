@@ -9,3 +9,15 @@ C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.csproj.GenerateRe
 C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.exe
 C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.pdb
 C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.FormPrueba.resources
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\bin\Debug\OTCE.exe.config
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\bin\Debug\OTCE.exe
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\bin\Debug\OTCE.pdb
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.csprojAssemblyReference.cache
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.FormLogin.resources
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.FormPrueba.resources
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.Principal.resources
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.Properties.Resources.resources
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.csproj.GenerateResource.cache
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.exe
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.pdb
+C:\Users\eslan\Desktop\OTCE\OrdenesTrabajo\OTCE\OTCE\obj\Debug\OTCE.FormOrder.resources

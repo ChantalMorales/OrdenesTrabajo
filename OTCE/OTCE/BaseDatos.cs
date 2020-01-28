@@ -9,7 +9,7 @@ namespace OTCE
 {
     class BaseDatos
     {
-        private string cadenaConexion = "Data Source= CHANTALM; Initial Catalog=OrdenesTrabajo; Integrated Security=true;";
+        private string cadenaConexion = "Data Source= ALDEBARAN; Initial Catalog=OrdenesTrabajo; Integrated Security=true;";
 
         public static string nombreCompleto = "";
         public static string rol = "";
