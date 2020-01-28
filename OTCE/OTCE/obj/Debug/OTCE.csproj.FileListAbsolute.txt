@@ -1,0 +1,11 @@
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\bin\Debug\OTCE.exe.config
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\bin\Debug\OTCE.exe
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\bin\Debug\OTCE.pdb
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.csprojAssemblyReference.cache
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.Form1.resources
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.Principal.resources
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.Properties.Resources.resources
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.csproj.GenerateResource.cache
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.exe
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.pdb
+C:\Users\Chantal Morales\source\repos\OTCE\OTCE\obj\Debug\OTCE.FormPrueba.resources
