@@ -36,7 +36,7 @@ namespace OTCE
 
         private void button4_Click(object sender, EventArgs e)
         {
-            FormOrder frm = new FormOrder();
+            FormOpOrder frm = new FormOpOrder();
             frm.ShowDialog();
 
         }

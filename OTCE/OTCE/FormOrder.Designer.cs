@@ -36,26 +36,23 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.txtIDorder = new System.Windows.Forms.TextBox();
             this.txtObinicial = new System.Windows.Forms.TextBox();
-            this.dtEntry = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.txtDiagnostic = new System.Windows.Forms.TextBox();
-            this.dtExit = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.txtObFinal = new System.Windows.Forms.TextBox();
             this.dsOTCE1 = new OTCE.dsOTCE();
             this.dsOTCE2 = new OTCE.dsOTCE();
-            this.txtIDclient = new System.Windows.Forms.NumericUpDown();
-            this.txtTech = new System.Windows.Forms.NumericUpDown();
-            this.txtStatus = new System.Windows.Forms.NumericUpDown();
+            this.txtDtEntry = new System.Windows.Forms.TextBox();
+            this.txtDtOut = new System.Windows.Forms.TextBox();
+            this.cmbTech = new System.Windows.Forms.ComboBox();
+            this.cmbClient = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cmbPrioridad = new System.Windows.Forms.ComboBox();
+            this.cmbEstado = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dsOTCE1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOTCE2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtIDclient)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtTech)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -83,7 +80,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(442, 50);
+            this.label3.Location = new System.Drawing.Point(414, 50);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 24);
             this.label3.TabIndex = 2;
@@ -123,7 +120,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(442, 116);
+            this.label7.Location = new System.Drawing.Point(490, 116);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(73, 24);
             this.label7.TabIndex = 6;
@@ -132,34 +129,13 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(499, 378);
+            this.btnSave.Location = new System.Drawing.Point(632, 378);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(88, 34);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.Location = new System.Drawing.Point(609, 378);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(88, 34);
-            this.btnEdit.TabIndex = 8;
-            this.btnEdit.Text = "Editar";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(726, 378);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(88, 34);
-            this.btnDelete.TabIndex = 9;
-            this.btnDelete.Text = "Eliminar";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.button3_Click);
             // 
             // txtIDorder
             // 
@@ -174,14 +150,6 @@
             this.txtObinicial.Name = "txtObinicial";
             this.txtObinicial.Size = new System.Drawing.Size(673, 20);
             this.txtObinicial.TabIndex = 16;
-            // 
-            // dtEntry
-            // 
-            this.dtEntry.Location = new System.Drawing.Point(213, 55);
-            this.dtEntry.Name = "dtEntry";
-            this.dtEntry.Size = new System.Drawing.Size(223, 20);
-            this.dtEntry.TabIndex = 17;
-            this.dtEntry.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label8
             // 
@@ -199,13 +167,6 @@
             this.txtDiagnostic.Name = "txtDiagnostic";
             this.txtDiagnostic.Size = new System.Drawing.Size(673, 20);
             this.txtDiagnostic.TabIndex = 19;
-            // 
-            // dtExit
-            // 
-            this.dtExit.Location = new System.Drawing.Point(597, 52);
-            this.dtExit.Name = "dtExit";
-            this.dtExit.Size = new System.Drawing.Size(217, 20);
-            this.dtExit.TabIndex = 20;
             // 
             // label9
             // 
@@ -234,45 +195,81 @@
             this.dsOTCE2.DataSetName = "dsOTCE";
             this.dsOTCE2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // txtIDclient
+            // txtDtEntry
             // 
-            this.txtIDclient.Location = new System.Drawing.Point(144, 121);
-            this.txtIDclient.Name = "txtIDclient";
-            this.txtIDclient.Size = new System.Drawing.Size(73, 20);
-            this.txtIDclient.TabIndex = 23;
+            this.txtDtEntry.Location = new System.Drawing.Point(213, 54);
+            this.txtDtEntry.Name = "txtDtEntry";
+            this.txtDtEntry.Size = new System.Drawing.Size(151, 20);
+            this.txtDtEntry.TabIndex = 26;
+            this.txtDtEntry.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // txtTech
+            // txtDtOut
             // 
-            this.txtTech.Location = new System.Drawing.Point(144, 85);
-            this.txtTech.Name = "txtTech";
-            this.txtTech.Size = new System.Drawing.Size(73, 20);
-            this.txtTech.TabIndex = 24;
+            this.txtDtOut.Location = new System.Drawing.Point(569, 54);
+            this.txtDtOut.Name = "txtDtOut";
+            this.txtDtOut.Size = new System.Drawing.Size(151, 20);
+            this.txtDtOut.TabIndex = 27;
             // 
-            // txtStatus
+            // cmbTech
             // 
-            this.txtStatus.Location = new System.Drawing.Point(521, 120);
-            this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(73, 20);
-            this.txtStatus.TabIndex = 25;
+            this.cmbTech.FormattingEnabled = true;
+            this.cmbTech.Location = new System.Drawing.Point(134, 83);
+            this.cmbTech.Name = "cmbTech";
+            this.cmbTech.Size = new System.Drawing.Size(338, 21);
+            this.cmbTech.TabIndex = 31;
+            // 
+            // cmbClient
+            // 
+            this.cmbClient.FormattingEnabled = true;
+            this.cmbClient.Location = new System.Drawing.Point(122, 119);
+            this.cmbClient.Name = "cmbClient";
+            this.cmbClient.Size = new System.Drawing.Size(350, 21);
+            this.cmbClient.TabIndex = 32;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(490, 83);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(90, 24);
+            this.label10.TabIndex = 33;
+            this.label10.Text = "Prioridad:";
+            // 
+            // cmbPrioridad
+            // 
+            this.cmbPrioridad.FormattingEnabled = true;
+            this.cmbPrioridad.Location = new System.Drawing.Point(586, 84);
+            this.cmbPrioridad.Name = "cmbPrioridad";
+            this.cmbPrioridad.Size = new System.Drawing.Size(134, 21);
+            this.cmbPrioridad.TabIndex = 34;
+            // 
+            // cmbEstado
+            // 
+            this.cmbEstado.FormattingEnabled = true;
+            this.cmbEstado.Location = new System.Drawing.Point(569, 118);
+            this.cmbEstado.Name = "cmbEstado";
+            this.cmbEstado.Size = new System.Drawing.Size(151, 21);
+            this.cmbEstado.TabIndex = 35;
             // 
             // FormOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(841, 424);
-            this.Controls.Add(this.txtStatus);
-            this.Controls.Add(this.txtTech);
-            this.Controls.Add(this.txtIDclient);
+            this.ClientSize = new System.Drawing.Size(739, 421);
+            this.Controls.Add(this.cmbEstado);
+            this.Controls.Add(this.cmbPrioridad);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.cmbClient);
+            this.Controls.Add(this.cmbTech);
+            this.Controls.Add(this.txtDtOut);
+            this.Controls.Add(this.txtDtEntry);
             this.Controls.Add(this.txtObFinal);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dtExit);
             this.Controls.Add(this.txtDiagnostic);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.dtEntry);
             this.Controls.Add(this.txtObinicial);
             this.Controls.Add(this.txtIDorder);
-            this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -283,11 +280,9 @@
             this.Controls.Add(this.label1);
             this.Name = "FormOrder";
             this.Text = "FormOrder";
+            this.Load += new System.EventHandler(this.FormOrder_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dsOTCE1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOTCE2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtIDclient)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtTech)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtStatus)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,20 +298,20 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.TextBox txtIDorder;
         private System.Windows.Forms.TextBox txtObinicial;
         private dsOTCE dsOTCE1;
-        private System.Windows.Forms.DateTimePicker dtEntry;
         private dsOTCE dsOTCE2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtDiagnostic;
-        private System.Windows.Forms.DateTimePicker dtExit;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtObFinal;
-        private System.Windows.Forms.NumericUpDown txtIDclient;
-        private System.Windows.Forms.NumericUpDown txtTech;
-        private System.Windows.Forms.NumericUpDown txtStatus;
+        private System.Windows.Forms.TextBox txtDtEntry;
+        private System.Windows.Forms.TextBox txtDtOut;
+        private System.Windows.Forms.ComboBox cmbTech;
+        private System.Windows.Forms.ComboBox cmbClient;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox cmbPrioridad;
+        private System.Windows.Forms.ComboBox cmbEstado;
     }
 }

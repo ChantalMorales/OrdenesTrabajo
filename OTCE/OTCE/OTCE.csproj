@@ -59,6 +59,12 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOpOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOpOrder.Designer.cs">
+      <DependentUpon>FormOpOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormOrder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOpOrder.resx">
+      <DependentUpon>FormOpOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormOrder.resx">
       <DependentUpon>FormOrder.cs</DependentUpon>
