@@ -40,5 +40,11 @@ namespace OTCE
             FormOrder frm = new FormOrder();
             frm.ShowDialog();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            Principal frm = new Principal();
+            frm.ShowDialog();
+        }
     }
 }

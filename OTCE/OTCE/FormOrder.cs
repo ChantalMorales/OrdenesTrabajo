@@ -54,6 +54,8 @@ namespace OTCE
                 new dsOTCETableAdapters.OrdenTableAdapter();
             
             this.Close();
+
+            
         }
 
         private void cmbEstado_SelectedIndexChanged(object sender, EventArgs e)
@@ -105,6 +107,12 @@ namespace OTCE
                 cmbClient.Items.Add(drc.GetString(0));
             }
             cnc.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormOpOrder frm = new FormOpOrder();
+            frm.ShowDialog();
         }
     }
 }

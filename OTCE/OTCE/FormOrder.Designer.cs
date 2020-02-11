@@ -42,8 +42,6 @@
             this.txtDiagnostic = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtObFinal = new System.Windows.Forms.TextBox();
-            this.dsOTCE1 = new OTCE.dsOTCE();
-            this.dsOTCE2 = new OTCE.dsOTCE();
             this.txtDtEntry = new System.Windows.Forms.TextBox();
             this.txtDtOut = new System.Windows.Forms.TextBox();
             this.cmbTech = new System.Windows.Forms.ComboBox();
@@ -51,6 +49,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.cmbPrioridad = new System.Windows.Forms.ComboBox();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.cmbEquip = new System.Windows.Forms.ComboBox();
+            this.dsOTCE1 = new OTCE.dsOTCE();
+            this.dsOTCE2 = new OTCE.dsOTCE();
+            this.btnReturn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dsOTCE1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsOTCE2)).BeginInit();
             this.SuspendLayout();
@@ -110,7 +113,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(43, 210);
+            this.label6.Location = new System.Drawing.Point(43, 241);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(174, 24);
             this.label6.TabIndex = 5;
@@ -129,7 +132,7 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(632, 378);
+            this.btnSave.Location = new System.Drawing.Point(510, 375);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(88, 34);
             this.btnSave.TabIndex = 7;
@@ -146,7 +149,7 @@
             // 
             // txtObinicial
             // 
-            this.txtObinicial.Location = new System.Drawing.Point(47, 243);
+            this.txtObinicial.Location = new System.Drawing.Point(47, 274);
             this.txtObinicial.Name = "txtObinicial";
             this.txtObinicial.Size = new System.Drawing.Size(673, 20);
             this.txtObinicial.TabIndex = 16;
@@ -155,7 +158,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(43, 155);
+            this.label8.Location = new System.Drawing.Point(43, 186);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 24);
             this.label8.TabIndex = 18;
@@ -163,7 +166,7 @@
             // 
             // txtDiagnostic
             // 
-            this.txtDiagnostic.Location = new System.Drawing.Point(47, 182);
+            this.txtDiagnostic.Location = new System.Drawing.Point(47, 213);
             this.txtDiagnostic.Name = "txtDiagnostic";
             this.txtDiagnostic.Size = new System.Drawing.Size(673, 20);
             this.txtDiagnostic.TabIndex = 19;
@@ -172,7 +175,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(43, 275);
+            this.label9.Location = new System.Drawing.Point(43, 306);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(160, 24);
             this.label9.TabIndex = 21;
@@ -180,20 +183,10 @@
             // 
             // txtObFinal
             // 
-            this.txtObFinal.Location = new System.Drawing.Point(47, 302);
+            this.txtObFinal.Location = new System.Drawing.Point(47, 333);
             this.txtObFinal.Name = "txtObFinal";
             this.txtObFinal.Size = new System.Drawing.Size(673, 20);
             this.txtObFinal.TabIndex = 22;
-            // 
-            // dsOTCE1
-            // 
-            this.dsOTCE1.DataSetName = "dsOTCE";
-            this.dsOTCE1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dsOTCE2
-            // 
-            this.dsOTCE2.DataSetName = "dsOTCE";
-            this.dsOTCE2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // txtDtEntry
             // 
@@ -252,11 +245,53 @@
             this.cmbEstado.Size = new System.Drawing.Size(151, 21);
             this.cmbEstado.TabIndex = 35;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(43, 151);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(76, 24);
+            this.label11.TabIndex = 36;
+            this.label11.Text = "Equipo:";
+            // 
+            // cmbEquip
+            // 
+            this.cmbEquip.FormattingEnabled = true;
+            this.cmbEquip.Location = new System.Drawing.Point(125, 154);
+            this.cmbEquip.Name = "cmbEquip";
+            this.cmbEquip.Size = new System.Drawing.Size(350, 21);
+            this.cmbEquip.TabIndex = 37;
+            // 
+            // dsOTCE1
+            // 
+            this.dsOTCE1.DataSetName = "dsOTCE";
+            this.dsOTCE1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dsOTCE2
+            // 
+            this.dsOTCE2.DataSetName = "dsOTCE";
+            this.dsOTCE2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReturn.Location = new System.Drawing.Point(616, 375);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(104, 34);
+            this.btnReturn.TabIndex = 38;
+            this.btnReturn.Text = "Regresar";
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 421);
+            this.Controls.Add(this.btnReturn);
+            this.Controls.Add(this.cmbEquip);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.cmbEstado);
             this.Controls.Add(this.cmbPrioridad);
             this.Controls.Add(this.label10);
@@ -313,5 +348,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cmbPrioridad;
         private System.Windows.Forms.ComboBox cmbEstado;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cmbEquip;
+        private System.Windows.Forms.Button btnReturn;
     }
 }
