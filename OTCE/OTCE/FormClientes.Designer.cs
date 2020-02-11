@@ -39,32 +39,36 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 116);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 94);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(644, 287);
+            this.dataGridView1.Size = new System.Drawing.Size(483, 233);
             this.dataGridView1.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(515, 47);
+            this.button1.Location = new System.Drawing.Point(386, 38);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 39);
+            this.button1.Size = new System.Drawing.Size(104, 32);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Agregar Orden";
+            this.button1.Text = "Agregar Equipo";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Bisque;
-            this.button2.Location = new System.Drawing.Point(33, 47);
+            this.button2.Location = new System.Drawing.Point(25, 38);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 39);
+            this.button2.Size = new System.Drawing.Size(66, 32);
             this.button2.TabIndex = 2;
             this.button2.Text = "Nuevo";
             this.button2.UseVisualStyleBackColor = false;
@@ -73,9 +77,10 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.YellowGreen;
-            this.button3.Location = new System.Drawing.Point(159, 47);
+            this.button3.Location = new System.Drawing.Point(119, 38);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 39);
+            this.button3.Size = new System.Drawing.Size(63, 32);
             this.button3.TabIndex = 3;
             this.button3.Text = "Editar";
             this.button3.UseVisualStyleBackColor = false;
@@ -84,9 +89,10 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkSalmon;
-            this.button4.Location = new System.Drawing.Point(270, 47);
+            this.button4.Location = new System.Drawing.Point(202, 38);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(89, 39);
+            this.button4.Size = new System.Drawing.Size(67, 32);
             this.button4.TabIndex = 4;
             this.button4.Text = "Eliminar";
             this.button4.UseVisualStyleBackColor = false;
@@ -94,14 +100,15 @@
             // 
             // FormClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 440);
+            this.ClientSize = new System.Drawing.Size(530, 358);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormClientes";
             this.Text = "FormClientes";
             this.Load += new System.EventHandler(this.FormClientes_Load);

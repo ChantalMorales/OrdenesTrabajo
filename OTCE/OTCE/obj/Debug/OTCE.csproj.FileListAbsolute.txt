@@ -23,3 +23,18 @@ C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.exe
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.pdb
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.FormClientes.resources
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.AgregarCliente.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\bin\Debug\OTCE.exe.config
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\bin\Debug\OTCE.exe
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\bin\Debug\OTCE.pdb
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.csprojAssemblyReference.cache
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.AgregarCliente.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.FormAgregarUsuario.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.FormClientes.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.FormLogin.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.FormPrueba.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.Principal.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.Properties.Resources.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.csproj.GenerateResource.cache
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.exe
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.pdb
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO 2\OTCE\OTCE\obj\Debug\OTCE.FormEquipo.resources

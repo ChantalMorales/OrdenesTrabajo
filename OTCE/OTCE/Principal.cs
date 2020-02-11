@@ -47,5 +47,11 @@ namespace OTCE
             frm.ShowDialog();
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormEquipo frm = new FormEquipo();
+            frm.ShowDialog();
+        }
     }
 }
