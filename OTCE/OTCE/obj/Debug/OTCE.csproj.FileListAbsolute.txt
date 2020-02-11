@@ -23,3 +23,5 @@ C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.exe
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.pdb
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.FormClientes.resources
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.AgregarCliente.resources
+C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\bin\Debug\IrisSkin2.dll
+C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.csproj.CopyComplete

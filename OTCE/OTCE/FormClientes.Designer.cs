@@ -38,33 +38,41 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 116);
+            this.dataGridView1.Location = new System.Drawing.Point(20, 156);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(644, 287);
+            this.dataGridView1.Size = new System.Drawing.Size(843, 287);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(515, 47);
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(710, 40);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 39);
+            this.button1.Size = new System.Drawing.Size(139, 87);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Agregar Orden";
+            this.button1.Text = "Agregar Equipo";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Bisque;
-            this.button2.Location = new System.Drawing.Point(33, 47);
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(20, 40);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 39);
+            this.button2.Size = new System.Drawing.Size(106, 87);
             this.button2.TabIndex = 2;
             this.button2.Text = "Nuevo";
             this.button2.UseVisualStyleBackColor = false;
@@ -72,10 +80,13 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.YellowGreen;
-            this.button3.Location = new System.Drawing.Point(159, 47);
+            this.button3.BackColor = System.Drawing.Color.Black;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(124, 40);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 39);
+            this.button3.Size = new System.Drawing.Size(98, 87);
             this.button3.TabIndex = 3;
             this.button3.Text = "Editar";
             this.button3.UseVisualStyleBackColor = false;
@@ -83,10 +94,14 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkSalmon;
-            this.button4.Location = new System.Drawing.Point(270, 47);
+            this.button4.BackColor = System.Drawing.Color.Black;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(220, 40);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(89, 39);
+            this.button4.Size = new System.Drawing.Size(99, 87);
             this.button4.TabIndex = 4;
             this.button4.Text = "Eliminar";
             this.button4.UseVisualStyleBackColor = false;
@@ -96,12 +111,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 440);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(60)))), ((int)(((byte)(11)))));
+            this.ClientSize = new System.Drawing.Size(875, 467);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FormClientes";
             this.Text = "FormClientes";
             this.Load += new System.EventHandler(this.FormClientes_Load);
