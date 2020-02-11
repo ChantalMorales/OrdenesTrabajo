@@ -24,10 +24,10 @@ namespace OTCE
 
         private void RefreshOrder()
         {
-            dsOTCETableAdapters.OrdenTableAdapter ta =
+            /*dsOTCETableAdapters.OrdenTableAdapter ta =
                 new dsOTCETableAdapters.OrdenTableAdapter();
             dsOTCE.OrdenDataTable dt = ta.GetDataOrder();
-            dataGridView1.DataSource = dt;
+            dataGridView1.DataSource = dt;*/
         }
 
         private void FormOpOrder_Load(object sender, EventArgs e)

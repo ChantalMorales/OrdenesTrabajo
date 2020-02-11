@@ -50,8 +50,8 @@ namespace OTCE
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            dsOTCETableAdapters.OrdenTableAdapter ta = 
-                new dsOTCETableAdapters.OrdenTableAdapter();
+            /*dsOTCETableAdapters.OrdenTableAdapter ta = 
+                new dsOTCETableAdapters.OrdenTableAdapter();*/
             
             this.Close();
 

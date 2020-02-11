@@ -25,3 +25,22 @@ C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.Form
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.AgregarCliente.resources
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\bin\Debug\IrisSkin2.dll
 C:\Users\Chantal Morales\Desktop\Proyecto Tecnicas\OTCE\OTCE\obj\Debug\OTCE.csproj.CopyComplete
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.csprojAssemblyReference.cache
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.AgregarCliente.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormAgregarUsuario.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormClientes.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormEquipo.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormLogin.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormOpOrder.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormOrder.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormPrueba.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.Principal.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.Properties.Resources.resources
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.csproj.GenerateResource.cache
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.exe
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.pdb
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\bin\Debug\OTCE.exe.config
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\bin\Debug\OTCE.exe
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\bin\Debug\OTCE.pdb
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.csproj.CopyComplete
+C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormBuscarEquipo.resources

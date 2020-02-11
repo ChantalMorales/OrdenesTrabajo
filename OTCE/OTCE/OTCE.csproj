@@ -67,6 +67,12 @@
     <Compile Include="FormAgregarUsuario.Designer.cs">
       <DependentUpon>FormAgregarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBuscarEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarEquipo.Designer.cs">
+      <DependentUpon>FormBuscarEquipo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAgregarUsuario.resx">
       <DependentUpon>FormAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarEquipo.resx">
+      <DependentUpon>FormBuscarEquipo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormClientes.resx">
       <DependentUpon>FormClientes.cs</DependentUpon>
