@@ -48,7 +48,6 @@
             this.txtobs = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtserie = new System.Windows.Forms.TextBox();
@@ -58,6 +57,7 @@
             this.txtram2 = new System.Windows.Forms.TextBox();
             this.cmborden = new System.Windows.Forms.ComboBox();
             this.txtesequipo = new System.Windows.Forms.ComboBox();
+            this.btnFinalizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -258,27 +258,13 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(524, 561);
+            this.button3.Location = new System.Drawing.Point(523, 559);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 30);
             this.button3.TabIndex = 36;
             this.button3.Text = "CONSULTAR";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(641, 561);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 64);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "GENERAR ORDEN";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // label1
             // 
@@ -295,7 +281,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(838, 122);
@@ -356,6 +342,7 @@
             this.cmborden.Name = "cmborden";
             this.cmborden.Size = new System.Drawing.Size(121, 24);
             this.cmborden.TabIndex = 46;
+            this.cmborden.SelectedIndexChanged += new System.EventHandler(this.cmborden_SelectedIndexChanged);
             // 
             // txtesequipo
             // 
@@ -368,12 +355,27 @@
             this.txtesequipo.TabIndex = 47;
             this.txtesequipo.SelectedIndexChanged += new System.EventHandler(this.txtesequipo_SelectedIndexChanged);
             // 
+            // btnFinalizar
+            // 
+            this.btnFinalizar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnFinalizar.Location = new System.Drawing.Point(643, 594);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(114, 32);
+            this.btnFinalizar.TabIndex = 48;
+            this.btnFinalizar.Text = "FINALIZAR";
+            this.btnFinalizar.UseVisualStyleBackColor = false;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
+            // 
             // FormEquipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(60)))), ((int)(((byte)(11)))));
             this.ClientSize = new System.Drawing.Size(837, 632);
+            this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.txtesequipo);
             this.Controls.Add(this.cmborden);
             this.Controls.Add(this.txtram2);
@@ -382,7 +384,6 @@
             this.Controls.Add(this.txtcargador);
             this.Controls.Add(this.txtserie);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtobs);
@@ -433,7 +434,6 @@
         private System.Windows.Forms.TextBox txtobs;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtserie;
@@ -443,5 +443,6 @@
         private System.Windows.Forms.TextBox txtram2;
         private System.Windows.Forms.ComboBox cmborden;
         private System.Windows.Forms.ComboBox txtesequipo;
+        private System.Windows.Forms.Button btnFinalizar;
     }
 }

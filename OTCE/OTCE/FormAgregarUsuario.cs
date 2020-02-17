@@ -24,18 +24,21 @@ namespace OTCE
             dsOTCETableAdapters.UsuarioTableAdapter ta = new dsOTCETableAdapters.UsuarioTableAdapter();
             if (Id == null)
             {
-                ta.Add(txtName.Text.Trim(), txtPasswd.Text, txtRol.Text.Trim());
+                ta.Add(txtName.Text.Trim(), txtPasswd.Text, txtRol.SelectedItem.ToString());
             }
             else
             {
-                ta.Edit(txtName.Text.Trim(), txtPasswd.Text, txtRol.Text.Trim(),(int)Id);
+                ta.Edit(txtName.Text.Trim(), txtPasswd.Text, txtRol.SelectedItem.ToString(),(int)Id);
             }
             this.Close();
         }
 
         private void FormAgregarUsuario_Load(object sender, EventArgs e)
         {
-            if(Id!=null)
+            txtRol.Items.Add("Administrador");
+            txtRol.Items.Add("Técnico");
+
+            if (Id!=null)
             {
                 dsOTCETableAdapters.UsuarioTableAdapter ta = new dsOTCETableAdapters.UsuarioTableAdapter();
                 dsOTCE.UsuarioDataTable dt= ta.GetDataById((int)Id);

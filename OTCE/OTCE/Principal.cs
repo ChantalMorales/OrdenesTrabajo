@@ -45,6 +45,7 @@ namespace OTCE
         {
             FormClientes frm = new FormClientes();
             frm.ShowDialog();
+            this.Hide();
             
         }
 

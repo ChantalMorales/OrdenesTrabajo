@@ -33,9 +33,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPasswd = new System.Windows.Forms.TextBox();
-            this.txtRol = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtRol = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,9 +44,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(62, 46);
+            this.label1.Location = new System.Drawing.Point(46, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.Size = new System.Drawing.Size(65, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -56,9 +57,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(62, 101);
+            this.label2.Location = new System.Drawing.Point(46, 82);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 25);
+            this.label2.Size = new System.Drawing.Size(92, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -68,9 +70,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(62, 164);
+            this.label3.Location = new System.Drawing.Point(46, 133);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 25);
+            this.label3.Size = new System.Drawing.Size(33, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Rol";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -80,9 +83,10 @@
             this.txtName.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtName.Location = new System.Drawing.Point(216, 48);
+            this.txtName.Location = new System.Drawing.Point(162, 39);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(253, 27);
+            this.txtName.Size = new System.Drawing.Size(191, 23);
             this.txtName.TabIndex = 3;
             this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
@@ -91,22 +95,12 @@
             this.txtPasswd.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtPasswd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPasswd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtPasswd.Location = new System.Drawing.Point(216, 105);
+            this.txtPasswd.Location = new System.Drawing.Point(162, 85);
+            this.txtPasswd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPasswd.Name = "txtPasswd";
-            this.txtPasswd.Size = new System.Drawing.Size(253, 27);
+            this.txtPasswd.Size = new System.Drawing.Size(191, 23);
             this.txtPasswd.TabIndex = 4;
             this.txtPasswd.TextChanged += new System.EventHandler(this.txtPasswd_TextChanged);
-            // 
-            // txtRol
-            // 
-            this.txtRol.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRol.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtRol.Location = new System.Drawing.Point(216, 164);
-            this.txtRol.Name = "txtRol";
-            this.txtRol.Size = new System.Drawing.Size(253, 27);
-            this.txtRol.TabIndex = 5;
-            this.txtRol.TextChanged += new System.EventHandler(this.txtRol_TextChanged);
             // 
             // button1
             // 
@@ -117,9 +111,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(576, 86);
+            this.button1.Location = new System.Drawing.Point(432, 70);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 62);
+            this.button1.Size = new System.Drawing.Size(98, 50);
             this.button1.TabIndex = 6;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = false;
@@ -128,27 +123,39 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Black;
-            this.pictureBox2.Location = new System.Drawing.Point(-2, 228);
+            this.pictureBox2.Location = new System.Drawing.Point(-2, 185);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1063, 60);
+            this.pictureBox2.Size = new System.Drawing.Size(797, 49);
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
             // 
+            // txtRol
+            // 
+            this.txtRol.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRol.FormattingEnabled = true;
+            this.txtRol.Location = new System.Drawing.Point(162, 131);
+            this.txtRol.Name = "txtRol";
+            this.txtRol.Size = new System.Drawing.Size(191, 26);
+            this.txtRol.TabIndex = 43;
+            // 
             // FormAgregarUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(60)))), ((int)(((byte)(11)))));
-            this.ClientSize = new System.Drawing.Size(751, 288);
+            this.ClientSize = new System.Drawing.Size(563, 234);
+            this.Controls.Add(this.txtRol);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtRol);
             this.Controls.Add(this.txtPasswd);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormAgregarUsuario";
             this.Text = "FormAgregarUsuario";
             this.Load += new System.EventHandler(this.FormAgregarUsuario_Load);
@@ -165,8 +172,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtPasswd;
-        private System.Windows.Forms.TextBox txtRol;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ComboBox txtRol;
     }
 }

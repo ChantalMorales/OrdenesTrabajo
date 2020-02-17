@@ -48,5 +48,17 @@ namespace OTCE
                 txtCI.Text = row.ci;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormOrder frm = new FormOrder();
+            frm.ShowDialog();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            FormOrder frm = new FormOrder();
+            frm.ShowDialog();
+        }
     }
 }

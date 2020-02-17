@@ -44,3 +44,22 @@ C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\bin\Debug\OTCE.exe
 C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\bin\Debug\OTCE.pdb
 C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.csproj.CopyComplete
 C:\Users\jon20\Desktop\ORDENES DE TRABAJO FINAL\OTCE\OTCE\obj\Debug\OTCE.FormBuscarEquipo.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\bin\Debug\OTCE.exe.config
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\bin\Debug\OTCE.exe
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\bin\Debug\OTCE.pdb
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.csprojAssemblyReference.cache
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.AgregarCliente.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormAgregarUsuario.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormBuscarEquipo.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormClientes.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormEquipo.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormLogin.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormOpOrder.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormOrder.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.FormPrueba.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.Principal.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.Properties.Resources.resources
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.csproj.GenerateResource.cache
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.csproj.CopyComplete
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.exe
+C:\Users\eslan\Desktop\OTCE_final\OTCE\OTCE\obj\Debug\OTCE.pdb

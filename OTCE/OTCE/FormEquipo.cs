@@ -62,11 +62,22 @@ namespace OTCE
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            FormOrder frm = new FormOrder();
+            FormOpOrder frm = new FormOpOrder();
             frm.ShowDialog();
         }
 
         private void txtesequipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFinalizar_Click(object sender, EventArgs e)
+        {
+            FormOpOrder frm = new FormOpOrder();
+            frm.ShowDialog();
+        }
+
+        private void cmborden_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
